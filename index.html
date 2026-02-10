@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine’s 💖</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 30px;
+      color: #fff;
+    }
+    img {
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    button {
+      font-size: 20px;
+      padding: 10px 30px;
+      margin: 10px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+    .yes {
+      background-color: #ff4d6d;
+      color: white;
+    }
+    .no {
+      background-color: #aaa;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <img src="us.jpg" alt="Us together">
+
+  <h1>Will you be my Valentine? 💘</h1>
+
+  <button class="yes" onclick="yesClicked()">Yes 💖</button>
+  <button class="no" onclick="noClicked()">No 😢</button>
+
+  <script>
+    function yesClicked() {
+      alert("I knew you would say yes 💕🥰");
+    }
+
+    function noClicked() {
+      alert("Error ❌ Please try again 😜");
+    }
+  </script>
+
+</body>
+</html>
